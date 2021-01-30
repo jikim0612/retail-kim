@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>J's</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet.css">
+<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+<style>
+    .container >  * {
+        background-color:white;
+    }
+    .container {
+        display:grid;
+        grid-template-columns:repeat(12, 1fr);
+        grid-gap:1em;
+    }
+    header {
+        grid-column:1/4;
+    }
+    .header-right {
+        grid-column:4/13;
+    }
+    .search {
+        grid-column:1/13;
+    }
+    nav {
+        grid-column:1/13;
+    }
+    .section1 {
+        grid-column:1/13;
+    }
+    .product1 {
+        grid-column:1/13;
+    }
+    .product2 {
+        grid-column:1/13;
+    }
+    .product3 {
+        grid-column:1/13;
+    }
+    .product4 {
+        grid-column:1/13;
+    }
+    .section2 {
+        grid-column:1/13;
+    }
+    footer {
+        grid-column:1/13;
+    }
+
+@media only screen and (min-width:620px) {
+    .search {
+        grid-column:1/4;
+    }
+    nav {
+        grid-column:4/13;
+    }
+    .product1 {
+        grid-column:1/7;
+    }
+    .product2 {
+        grid-column:7/13;
+    }
+    .product3 {
+        grid-column:1/7;
+    }
+    .product4 {
+        grid-column: 7/13;
+    }
+}
+@media only screen and (min-width:900px) {
+    .product1 {
+        grid-column:1/4;
+    }
+    .product2 {
+        grid-column:4/7;
+    }
+    .product3 {
+        grid-column:7/10;
+    }
+    .product4 {
+        grid-column: 10/13;
+    }
+    }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+        <a href="default" class="logo"> <img src="images/logo.png" alt="Logo" style="width:100px;height:100px;"></a>
+        <div class="header-left"></div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="https://twitter.com" class="fa fa-twitter"></a>
+        </header>
+        <div class="header-right">
+        <h1>J's</h1>
+
+        </div>
+        <div class="search">
+        <input type="text" placeholder="Search J's...">
+        </div>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="product1.html">Jewelry</a>
+        <a href="product2.html">Men's</a>
+        <a href="policy.html">Privacy Policy</a>
+        <a href="cart" class="right">Cart</a>
+        </nav>
+        <div class="section1">
+        <img class="images" src="images/colored%20gemstone.jpg"
+          style="width:100%">
+            <p>J's Collections</p>
+            <a href="product1.html">Shop Our Collections</a>
+        </div>
+        <div class="product1">
+        <img class="images" src="images/pendants.jpg"
+          style="width:100%">
+            <p>Gifts for Her</p>
+            <a href="product1.html">Shop all gifts for her</a>
+        </div>
+        <div class="product2">
+        <img class="images" src="images/rings.jpg"
+          style="width:100%">
+            <p>Gifts for Him</p>
+            <a href="product2.html">Shop all gifts for him</a>
+        </div>
+        <div class="product3">
+        <img class="images" src="images/pearl.jpg"
+          style="width:100%">
+            <p>Fall/Winter Collection of 2020</p>
+            <a href="product1.html">See our newest collections</a>
+        </div>
+        <div class="product4">
+        <img class="images" src="images/charms.jpg"
+          style="width:100%">
+            <p>Holiday Gifts</p>
+            <a href="product1.html">See our Holiday Gifts</a>
+        </div>
+        <div class="section2">
+        <p>Plan you holiday shopping early with a little help from a <a href="images/blue1.jpg">J's gifting expert.</a></p>
+        </div>
+        <footer>
+        <h2> J's. 2020</h2>
+        </footer>
+    </div>
+</body>
+</html>
